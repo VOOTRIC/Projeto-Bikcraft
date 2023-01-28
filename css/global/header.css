@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .header-bg {
-    background-color: var(--cor12);
+    background-color: var(--cor-12);
 }
 
 .header {
@@ -55,13 +55,13 @@
     }
 
     .header-menu a {
-        background-color: var(--cor12);
+        background-color: var(--cor-12);
         padding: 12px 16px;
         border-radius: 5px;
     }
 
     .header-menu a:hover {
-        background-color: var(--cor10);
+        background-color: var(--cor-10);
         transition: 0.3s;
     }
 
