@@ -37,18 +37,6 @@
     margin-bottom: 20px;
 }
 
-
-@media (max-width:1200px) {
-
-    .introducao-conteudo h1 {
-        font-size: 48px;
-    }
-
-    .introducao-conteudo P {
-        font-size: 18px;
-    }
-}
-
 @media (max-width:800px) {
 
     .introducao-bg {
@@ -67,7 +55,6 @@
     }
 
     .introducao-conteudo h1 {
-        font-size: 32px;
         margin-bottom: 16px;
     }
 

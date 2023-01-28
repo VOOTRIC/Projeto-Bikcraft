@@ -1,15 +1,111 @@
 @charset "UTF-8";
 
-.texto-grande{
-    font-size: 64px;
+.font-1-xs {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.33;
+}
+
+.font-1-s {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.font-1-m-b {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.font-1-m {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.font-1-l {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25;
+}
+
+.font-1-xl {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5;
+}
+
+.font-1-xxl {
+    font-size: 4rem;
     line-height: 1.125;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
-.texto-medio{
-    font-size: 24px;
-    line-height: 36px;
-    font-family: 'Roboto';
+.font-2-xs {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.25;
+}
+
+.font-2-s {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.font-2-m {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.33;
+}
+
+.font-2-l-b {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25;
+    letter-spacing: 0.015rem;
+    text-transform: uppercase;
+}
+
+.font-2-l {
+    font-size: 1.5rem;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+@media (max-width:1200px) {
+
+    .font-1-xxl {
+        font-size: 3rem;
+    }
+
+    .font-2-l,
+    .font-2-l-b {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width:800px) {
+    .font-1-xxl {
+        font-size: 2rem;
+    }
+
+    .font-1-xl,
+    .font-2-xl {
+        font-size: 1.5rem;
+    }
 }
