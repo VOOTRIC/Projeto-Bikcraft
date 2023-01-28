@@ -25,7 +25,6 @@
 .introducao img {
     height: 100%;
     object-fit: cover;
-    border-radius: 5px;
 }
 
 .introducao-conteudo h1 {
