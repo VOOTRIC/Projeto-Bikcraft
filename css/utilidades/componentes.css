@@ -42,6 +42,7 @@ transition: 0.2s;
     font-weight: bold;
     font-family: 'Poppins';
     font-weight: 600;
+    max-width: max-content;
 }
 
 @media(max-width:600px) {
@@ -55,4 +56,14 @@ transition: 0.2s;
 .botao:hover {
     background: linear-gradient(#ffb60d, #e59317);
     transition: 0.2s;
+}
+
+.botao.secundario{
+    color: var(--cor-2);
+    background: var(--cor-10);
+}
+
+
+.botao.secundario:hover{
+    background: var(--cor-9);
 }
