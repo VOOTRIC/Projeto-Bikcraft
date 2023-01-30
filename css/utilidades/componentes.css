@@ -63,10 +63,30 @@ transition: 0.2s;
     background: var(--cor-10);
 }
 
-
 .botao.secundario:hover{
     background: var(--cor-9);
 }
+
+.botao.seta{
+display: flex;
+align-items: center;
+}
+
+.botao.seta:hover::after{
+transform: translateX(4px);
+}
+
+.botao.seta::after{
+content: "";
+display: inline-block;
+width: 18px;
+height: 10px;
+margin-left: 12px;
+background: url(../../img/icones/seta.svg);
+transition: transform 0.2s;
+}
+
+
 
 /* titulo interno  */
 
