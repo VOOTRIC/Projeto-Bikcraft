@@ -19,10 +19,12 @@
 
 /* Bicicleta*/
 @import "./bicicleta/bicicleta.css";
+@import "bicicleta/seguro.css";
 
 /* Seguros */
 @import "securos/seguros.css";
 @import "securos/vantagens.css";
 @import "securos/perguntas.css";
+
 /* Termos */
 @import "termos/termos.css";
