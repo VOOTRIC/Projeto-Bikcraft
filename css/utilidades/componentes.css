@@ -43,6 +43,8 @@ transition: 0.2s;
     font-family: 'Poppins';
     font-weight: 600;
     max-width: max-content;
+    border: none;
+    cursor: pointer;
 }
 
 @media(max-width:600px) {
