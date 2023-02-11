@@ -9,8 +9,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     padding-top: 60px;
-    padding-bottom: 60px;
-
+    padding-bottom: 60px; 
+    background: url(../../img/dec/top-right.svg) no-repeat top 40px right 20px;
 }
 
 .bicicletas-imagem {
@@ -77,10 +77,10 @@
 
 @media (max-width: 800px) {
 
-    
-.bicicletas-bg {
-    background: var(--cor-11);
-}
+
+    .bicicletas-bg {
+        background: var(--cor-11);
+    }
 
     .bicicletas {
         grid-template-columns: 1fr;
