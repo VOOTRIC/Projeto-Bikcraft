@@ -113,6 +113,10 @@
     background-color: var(--cor-0);
 }
 
+.orcamento-dados-estado{
+  color: var(--cor-7) ;  
+}
+
 .orcamento-conteudo {
     display: none;
 }
@@ -157,6 +161,10 @@
     grid-template-columns: auto max-content;
     align-items: center;
     column-gap: 10px;
+}
+
+.orcamento-termos a{
+text-decoration: underline;
 }
 
 input[type="checkbox"] {
